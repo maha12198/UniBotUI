@@ -8,7 +8,7 @@ socketio = SocketIO( app )
 
 @app.route( '/', methods=['GET','POST'])
 def hello():
-  return render_template( './UniBot.html' )
+  return render_template( './unibot.html' )
 
 def messageRecived():
   print( 'message was received!!!' )
